@@ -3,6 +3,11 @@ Analista
 Soy ingeniera Financiera.
 Espero aprender mucho en este curso
 
+Daniel Fernando Hernandez Guacaneme
+Desarrollador
+Soy estudiante de programacion y desarrollo de software
+tengo 24 años vivo en Bogota , actualmente trabajo como desarrollador de software.
+
 Magda Johanna Cifuentes Tibocha
 Administrador BD
 Soy contadora y me especializo en control interno y gestión. 
@@ -16,4 +21,3 @@ Sebastián Mejía Moreno
 Scrum Master
 Dispuesto para ayudar en lo que se pueda, dibujante frecuente, con gran interés por las artes y la 
 tecnología.
->>>>>>> 0e25924643c693f66378fc5599491f6b50617497
