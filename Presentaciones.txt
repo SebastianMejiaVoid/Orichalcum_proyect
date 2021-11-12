@@ -2,3 +2,18 @@ Karen Lorena Ruiz Martinez
 Analista
 Soy ingeniera Financiera.
 Espero aprender mucho en este curso
+
+Magda Johanna Cifuentes Tibocha
+Administrador BD
+Soy contadora y me especializo en control interno y gestión. 
+Espero aprender mucho en este programa.
+
+Kevin Sebastian Cifuentes Lopez
+Product Owner
+Soy estudiante y entusiasta de la tecnologia y la informatica.
+
+Sebastián Mejía Moreno 
+Scrum Master
+Dispuesto para ayudar en lo que se pueda, dibujante frecuente, con gran interés por las artes y la 
+tecnología.
+>>>>>>> 0e25924643c693f66378fc5599491f6b50617497
