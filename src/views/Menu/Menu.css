@@ -1,0 +1,47 @@
+.container {
+  place-items: center;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: none;
+  margin: auto;
+  padding: 0;
+}
+.btn-menu {
+  width: 15.5rem;
+  height: 5.3rem;
+  margin: 1.2rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 40px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #060055;
+  padding-top: 1px;
+}
+
+.btn-menu:hover {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font: 100px sans-serif;
+  height: 1px;
+  margin-top: 0px;
+  font-size: 100px;
+  margin-left: 10px;
+  margin: 200px;
+  border-radius: 100px;
+  font-weight: bold;
+  /* margin-block: ; */
+}
