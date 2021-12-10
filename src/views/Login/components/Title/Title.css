@@ -1,0 +1,15 @@
+.title-container {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font: 100px sans-serif;
+  text-align: center;
+  font-weight: bold;
+  height: 70px;
+  margin-top: 200px;
+  font-size: 60px;
+  margin-left: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

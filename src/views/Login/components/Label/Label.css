@@ -1,0 +1,9 @@
+.label-container {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: monospace;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 870px;
+  /* justify-items: left; */
+}
