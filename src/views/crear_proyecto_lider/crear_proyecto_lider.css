@@ -1,0 +1,149 @@
+.div1 {
+  height: 80px;
+  align-items: center;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  /* border-radius: 5px; */
+  /* border-style: solid; */
+}
+.div2 {
+  height: 80px;
+  width: 1630px;
+  align-items: center;
+  margin-right: 10px;
+  text-align: center;
+  /* float: left; */
+  display: inline-block;
+  /* border-style: solid; */
+}
+.div3 {
+  height: 50px;
+  align-items: center;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  /* border-style: solid; */
+  width: 1630px;
+}
+.div4 {
+  height: 300px;
+  width: 1630px;
+  /* border-style: solid; */
+  margin-left: 127px;
+}
+
+.container {
+  height: 850px;
+  width: 1900px;
+  border-style: solid;
+}
+
+.label_nombre {
+  margin-right: 20px;
+  font-size: 30px;
+}
+.label_identificacion {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.label_estado {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.selec_fase {
+  margin-left: 40px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+.label_nombreproyecto {
+  margin-right: 10px;
+  font-size: 30px;
+  float: left;
+}
+.label_fechainicio {
+  margin-left: 220px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.label_fechafinal {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+.input_nombreproyecto {
+  margin-right: 60px;
+  height: 30px;
+  width: 335px;
+  font-size: 20px;
+}
+.input_fechafinal {
+  /* margin-right: 20px; */
+  height: 30px;
+  width: 170px;
+  font-size: 20px;
+}
+.input_fechainicio {
+  height: 30px;
+  width: 170px;
+  font-size: 20px;
+}
+.input_nombrelider {
+  height: 30px;
+  width: 335px;
+  font-size: 20px;
+}
+.input_identificacionlider {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+}
+
+/* .input_radio1 {
+  margin-left: 20px;
+} */
+
+.label_activo {
+  font-size: 30px;
+}
+.label_inactivo {
+  font-size: 30px;
+}
+
+.label_objetivos_generales {
+  font-size: 30px;
+  margin-right: 400px;
+  float: left;
+}
+.input_text_generales {
+  height: 270px;
+  width: 600px;
+  float: left;
+}
+.label_objetivos_especificos {
+  font-size: 30px;
+  margin-right: 325px;
+  float: right;
+}
+.input_text_especificos {
+  height: 270px;
+  width: 600px;
+  float: right;
+  /* margin-left: 500px; */
+}
+.label_presupuestos {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.input_presupuestos {
+  height: 30px;
+  width: 335px;
+}
+.button {
+  border-radius: 10px;
+  height: 50px;
+  font-size: 30px;
+}
