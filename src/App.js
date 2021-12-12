@@ -9,6 +9,8 @@ import usuarios_lider from "./views/usuarios_lider/usuarios_lider";
 import proyectos_admin from "./views/proyectos_admin/proyectos_admin";
 import proyectos_estudiante from "./views/proyectos_estudiante/proyectos_estudiante";
 import crear_proyecto_lider from "./views/crear_proyecto_lider/crear_proyecto_lider";
+import revisar_proyecto_administrador from "./views/revisar_proyecto_administrador/revisar_proyecto_administrador";
+import actualizar_proyecto_lider from "./views/actualizar_proyecto_lider/actualizar_proyecto_lider";
 
 function App() {
   return (
@@ -22,6 +24,14 @@ function App() {
           <Route path="/Proyectos_lider" component={proyectos_lider} />
           <Route path="/usuarios_lider" component={usuarios_lider} />
           <Route path="/proyectos_admin" component={proyectos_admin} />
+          <Route
+            path="/actualizar_proyecto_lider"
+            component={actualizar_proyecto_lider}
+          />
+          <Route
+            path="/revisar_proyecto_administrador"
+            component={revisar_proyecto_administrador}
+          />
           <Route
             path="/crear_proyecto_lider"
             component={crear_proyecto_lider}

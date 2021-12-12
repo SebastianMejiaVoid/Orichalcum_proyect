@@ -1,12 +1,12 @@
 import React from "react";
-import "./crear_proyecto_lider.css";
+import "./actualizar_proyecto_lider.css";
 // import {FormLabel } from "@mui/material";
 
-const crear_proyecto_lider = () => {
+const actualizar_proyecto_lider = () => {
   return (
     <div className="container">
       <form>
-        <h1>Crear proyecto</h1>
+        <h1>Actualizar proyecto</h1>
         <br></br>
         <br></br>
         <div className="div1">
@@ -80,9 +80,9 @@ const crear_proyecto_lider = () => {
         <br></br>
         <br></br>
         <br></br>
-        <button className="button">Crear proyecto </button>
+        <button className="button">Actualizar proyecto </button>
       </form>
     </div>
   );
 };
-export default crear_proyecto_lider;
+export default actualizar_proyecto_lider;

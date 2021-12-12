@@ -1,6 +1,17 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import { DataGrid } from "@mui/x-data-grid";
 import "./proyectos_admin.css";
+import { useQuery, gql } from "@apollo/client";
+
+const projects_Query = gql`
+  query Proyectos {
+    Proyectos {
+      _id
+      nombre
+      estado
+    }
+  }
+`;
 
 const columns = [
   { field: "id", headerName: "ID", width: 70 },
@@ -8,70 +19,25 @@ const columns = [
   { field: "estado", headerName: "Estado", width: 130 },
 ];
 
-const rows = [
-  {
-    id: 1,
-    proyecto: "proyecto1",
-    estado: "proyecto1",
-    aceptado_rechazado: <button>aceptar</button>,
-  },
-  {
-    id: 2,
-    proyecto: "proyecto2",
-    estado: "proyecto2",
-    aceptado_rechazado: "rechazado",
-  },
-  {
-    id: 3,
-    proyecto: "proyecto3",
-    estado: "proyecto3",
-    aceptado_rechazado: "aceptado",
-  },
-  {
-    id: 4,
-    proyecto: "proyecto4",
-    estado: "proyecto4",
-    aceptado_rechazado: "aceptado",
-  },
-  {
-    id: 5,
-    proyecto: "proyecto5",
-    estado: "proyecto5",
-    aceptado_rechazado: "aceptado",
-  },
-  {
-    id: 6,
-    proyecto: "proyecto6",
-    estado: "proyecto6",
-    aceptado_rechazado: "aceptado",
-  },
-  {
-    id: 7,
-    proyecto: "proyecto7",
-    estado: "proyecto7",
-    aceptado_rechazado: "iaceptado",
-  },
-  {
-    id: 8,
-    proyecto: "proyecto8",
-    estado: "proyecto8",
-    aceptado_rechazado: "aceptado",
-  },
-  {
-    id: 9,
-    proyecto: "proyecto9",
-    estado: "proyecto9",
-    aceptado_rechazado: "aaceptado",
-  },
-];
-
 export default function DataTable() {
+  const { data, loading, error } = useQuery(projects_Query);
+  const [projects, setPojects] = useState([]);
+  useEffect(() => {
+    if (!loading && !error) {
+      const projectsFormated = data.Proyectos.map((project) => ({
+        id: project._id,
+        proyecto: project.nombre,
+        estado: project.estado,
+      }));
+      setPojects(projectsFormated);
+    }
+  }, [data, error, loading]);
   return (
     <div style={{ height: 400, width: "80%" }}>
       <h4 className="title">LISTA PROYECTOS</h4>
       <DataGrid
         className="table_user"
-        rows={rows}
+        rows={projects}
         columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
