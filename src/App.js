@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Login from "./views/Login/Login";
 import Menu from "./views/Menu/Menu";
@@ -11,8 +12,12 @@ import proyectos_estudiante from "./views/proyectos_estudiante/proyectos_estudia
 import crear_proyecto_lider from "./views/crear_proyecto_lider/crear_proyecto_lider";
 import revisar_proyecto_administrador from "./views/revisar_proyecto_administrador/revisar_proyecto_administrador";
 import actualizar_proyecto_lider from "./views/actualizar_proyecto_lider/actualizar_proyecto_lider";
+import inscripciones from "./views/inscripciones/inscripciones";
+import Actualizar_usuario from "./views/actualizar_usuario/actualizar_usuario";
+import detalles_proyecto from "./views/detalles_proyecto/detalles_proyecto";
 
 function App() {
+  const [isLogged, setIsLogged] = useState(false);
   return (
     <BrowserRouter>
       <div className="App">
@@ -24,6 +29,9 @@ function App() {
           <Route path="/Proyectos_lider" component={proyectos_lider} />
           <Route path="/usuarios_lider" component={usuarios_lider} />
           <Route path="/proyectos_admin" component={proyectos_admin} />
+          <Route path="/inscripciones" component={inscripciones} />
+          <Route path="/actualizar_usuario" component={Actualizar_usuario} />
+          <Route path="/detalles_proyecto" component={detalles_proyecto} />
           <Route
             path="/actualizar_proyecto_lider"
             component={actualizar_proyecto_lider}
