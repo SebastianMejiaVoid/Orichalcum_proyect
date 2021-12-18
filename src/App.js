@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Login from "./views/Login/Login";
 import Menu from "./views/Menu/Menu";
@@ -14,8 +15,12 @@ import actualizar_proyecto_lider from "./views/actualizar_proyecto_lider/actuali
 import registrar_avance from "./views/registrar_avance/registrar_avance";
 import revisar_avance from "./views/revisar_avance/revisar_avance";
 import actualizar_avance from "./views/actualizar_avance/actualizar_avance";
+import inscripciones from "./views/inscripciones/inscripciones";
+import Actualizar_usuario from "./views/actualizar_usuario/actualizar_usuario";
+import detalles_proyecto from "./views/detalles_proyecto/detalles_proyecto";
 
 function App() {
+  const [isLogged, setIsLogged] = useState(false);
   return (
     <BrowserRouter>
       <div className="App">
@@ -30,6 +35,9 @@ function App() {
           <Route path="/registrar_avance" component={registrar_avance} />
           <Route path="/revisar_avance" component={revisar_avance} />
           <Route path="/actualizar_avance" component={actualizar_avance} />
+          <Route path="/inscripciones" component={inscripciones} />
+          <Route path="/actualizar_usuario" component={Actualizar_usuario} />
+          <Route path="/detalles_proyecto" component={detalles_proyecto} />
           <Route
             path="/actualizar_proyecto_lider"
             component={actualizar_proyecto_lider}
