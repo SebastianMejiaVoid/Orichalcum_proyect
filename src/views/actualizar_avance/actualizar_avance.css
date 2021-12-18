@@ -1,0 +1,120 @@
+.div1 {
+    height: 20px;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    /* border-radius: 5px; */
+    /* border-style: solid; */
+  }
+  .div2 {
+    height: 20px;
+    width: 1630px;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+    /* float: left; */
+    display: inline-block;
+    /* border-style: solid; */
+  }
+  .div3 {
+    height: 50px;
+    align-items: center;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    /* border-style: solid; */
+    width: 1630px;
+  }
+  .div4 {
+    height: 300px;
+    width: 1630px;
+    /* border-style: solid; */
+    margin-left: 127px;
+  }
+  
+  .container {
+    height: 850px;
+    width: 1900px;
+    border-style: solid;
+  }
+  
+  .label_nombre {
+    margin-right: 0px;
+    font-size: 30px;
+  }
+  .label_identificacion {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  .label_nombreproyecto {
+    margin-right: 10px;
+    font-size: 30px;
+    float: left;
+  }
+  .label_fechainicio {
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 30px;
+    float: left;
+  }
+  .input_nombreproyecto {
+    margin-right: 60px;
+    height: 30px;
+    width: 335px;
+    font-size: 20px;
+  }
+  .input_fechainicio {
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+    float: left;
+  }
+  .input_nombreestudiante {
+    height: 30px;
+    width: 335px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+  .input_identificacionproyecto {
+    height: 30px;
+    width: 335px;
+    margin-right: 190px;
+    font-size: 20px;
+  }
+  
+  /* .input_radio1 {
+    margin-left: 20px;
+  } */
+
+  .label_observacion_lider {
+    font-size: 30px;
+    margin-left: 70px;
+    float: left;
+  }
+  .input_text_observacion {
+    height: 270px;
+    width: 700px;
+    float: left;
+    margin-right: 20px;
+  }
+  .label_descripcion_avance {
+    font-size: 30px;
+    margin-right: 325px;
+    float: right;
+  }
+  .input_text_descripcion {
+    height: 270px;
+    width: 700px;
+    float: right;
+    
+    /* margin-left: 500px; */
+
+  }
+  .button {
+    border-radius: 10px;
+    height: 50px;
+    font-size: 30px;
+  }
+  
