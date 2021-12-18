@@ -11,6 +11,9 @@ import proyectos_estudiante from "./views/proyectos_estudiante/proyectos_estudia
 import crear_proyecto_lider from "./views/crear_proyecto_lider/crear_proyecto_lider";
 import revisar_proyecto_administrador from "./views/revisar_proyecto_administrador/revisar_proyecto_administrador";
 import actualizar_proyecto_lider from "./views/actualizar_proyecto_lider/actualizar_proyecto_lider";
+import registrar_avance from "./views/registrar_avance/registrar_avance";
+import revisar_avance from "./views/revisar_avance/revisar_avance";
+import actualizar_avance from "./views/actualizar_avance/actualizar_avance";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           <Route path="/Proyectos_lider" component={proyectos_lider} />
           <Route path="/usuarios_lider" component={usuarios_lider} />
           <Route path="/proyectos_admin" component={proyectos_admin} />
+          <Route path="/registrar_avance" component={registrar_avance} />
+          <Route path="/revisar_avance" component={revisar_avance} />
+          <Route path="/actualizar_avance" component={actualizar_avance} />
           <Route
             path="/actualizar_proyecto_lider"
             component={actualizar_proyecto_lider}
@@ -39,6 +45,18 @@ function App() {
           <Route
             path="/proyectos_estudiante"
             component={proyectos_estudiante}
+          />
+          <Route
+            path="/registrar_avance"
+            component={registrar_avance}
+          />
+          <Route
+            path="/revisar_avance"
+            component={revisar_avance}
+          />
+          <Route
+            path="/actualizar_avance"
+            component={actualizar_avance}
           />
         </Switch>
       </div>
