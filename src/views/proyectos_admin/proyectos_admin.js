@@ -40,7 +40,7 @@ export default function DataTable() {
         rows={projects}
         columns={columns}
         pageSize={5}
-        rowsPerPageOptions={[5]}
+        rowsPerPageOptions={[7]}
         checkboxSelection
       />
       <button className="buttonR">Revisar </button>
