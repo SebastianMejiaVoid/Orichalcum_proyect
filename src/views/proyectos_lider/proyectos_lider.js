@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { DataGrid } from "@mui/x-data-grid";
+import { Link } from "react-router-dom";
 import "./proyectos_lider.css";
 import { useQuery, gql } from "@apollo/client";
+
 
 const projects_Query = gql`
   query Proyectos {
@@ -45,8 +47,14 @@ export default function DataTable() {
         rowsPerPageOptions={[5]}
         checkboxSelection
       />
+      <Link to="actualizar_proyecto_lider">
+      {" "}
       <button className="button1">Actualizar </button>
+      </Link>
+      <Link to="crear_proyecto_lider">
+      {" "}
       <button className="button2">Crear proyecto</button>
+      </Link>
     </div>
   );
 }

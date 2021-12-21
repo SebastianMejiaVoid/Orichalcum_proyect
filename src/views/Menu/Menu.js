@@ -11,14 +11,14 @@ const Menu = () => {
         <h1 className="title"> Menu</h1>
       </div>
 
-      <Link to="">
+      <Link to="proyectos_lider">
         {" "}
         <button className="btn-menu">Proyectos</button>
       </Link>
-      <Link to="">
+      <Link to="registrar_avance">
         <button className="btn-menu">Avances</button>
       </Link>
-      <Link to="">
+      <Link to="usuarios_lider">
         <button className="btn-menu">Usuarios</button>
       </Link>
     </div>
